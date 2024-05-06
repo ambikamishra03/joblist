@@ -5,6 +5,7 @@ import {
   GroupHeader,
   GroupItems,
   Box,
+  Typography,
 } from "@mui/material";
 import React, { Component } from "react";
 import { useSelector, useDispatch } from "react-redux";
@@ -37,6 +38,7 @@ const Filters = () => {
 
   return (
     <Box container display="flex" justifyContent="flex-start">
+    
       <Autocomplete
         size="small"
         id="jobRoles"

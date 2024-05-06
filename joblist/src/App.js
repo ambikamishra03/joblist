@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import React from "react";
 
-import Home from "./containers/Home";
-import NotFound from "./containers/NotFound";
+import Home from "./containers/Home.js";
+import NotFound from "./containers/NotFound.js";
 
 function App() {
   return (

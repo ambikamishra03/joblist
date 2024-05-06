@@ -75,9 +75,10 @@ const JobCard = ({ job, innerRef }) => {
           variant="contained"
           startIcon={<ElectricBolt />}
           fullWidth
-          disabled={job.jdLink == undefined}
+          disabled={job.jdLink === undefined}
           href={job.jdLink}
           target="_blank"
+          style={{backgroundColor:'green'}}
         >
           {" "}
           Easy Apply

@@ -38,7 +38,7 @@ export const jobSlice = createSlice({
             ? state.filter.minExperience
             : 10000;
         const minJobExp = job.minExp ? job.minExp : 0;
-        const maxJobExp = job.maxExp != undefined ? job.maxExp : 1000;
+        const maxJobExp = job.maxExp !== undefined ? job.maxExp : 1000;
         console.log(minFilterExp, minJobExp);
         if (minFilterExp < minJobExp) {
           return false;
